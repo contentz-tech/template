@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "my-personal-website",
   "description": "Just another Contentz site",
   "scripts": {
     "build": "contentz build",
