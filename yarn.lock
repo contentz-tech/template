@@ -1484,7 +1484,7 @@ concat-stream@1.6.2, concat-stream@^1.5.2:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-concurrently@^4.1.1:
+concurrently@4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-4.1.1.tgz#42cf84d625163f3f5b2e2262568211ad76e1dbe8"
   integrity sha512-48+FE5RJ0qc8azwKv4keVQWlni1hZeSjcWr8shBelOBtBHcKj1aJFM9lHRiSc1x7lq416pkvsqfBMhSRja+Lhw==
@@ -1512,7 +1512,7 @@ content-disposition@0.5.2:
   resolved "https://registry.yarnpkg.com/content-disposition/-/content-disposition-0.5.2.tgz#0cf68bb9ddf5f2be7961c3a85178cb85dba78cb4"
   integrity sha1-DPaLud318r55YcOoUXjLhdunjLQ=
 
-contentz@^3.13.3:
+contentz@3.13.3:
   version "3.13.3"
   resolved "https://registry.yarnpkg.com/contentz/-/contentz-3.13.3.tgz#7fd98a0fbb8f778cec71c32eb385a7d9fe8b6e46"
   integrity sha512-PNjwQavnOP6Qeg7X/hqIZatvsRNa2MnnI2/9JF0h6qFsf+IdmCfk8ZZiOg3STu/7h5BaB2oC6vzooFY3dWwe9A==
@@ -2395,15 +2395,16 @@ https-proxy-agent@^2.2.1:
     agent-base "^4.1.0"
     debug "^3.1.0"
 
-husky@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-2.5.0.tgz#fe9839e118e5d88e3f1d7121d52564745615815e"
-  integrity sha512-/aQIBaVMuzGi5X5BPliDPbHE+G+HDpWV7Zu28DiiXFMvHQcOeTsEnODWIGKyGBp7GM7rOgkxQdF+6AEo6xNtkw==
+husky@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-3.0.0.tgz#de63821a7049dc412b1afd753c259e2f6e227562"
+  integrity sha512-lKMEn7bRK+7f5eWPNGclDVciYNQt0GIkAQmhKl+uHP1qFzoN0h92kmH9HZ8PCwyVA2EQPD8KHf0FYWqnTxau+Q==
   dependencies:
     cosmiconfig "^5.2.1"
     execa "^1.0.0"
     get-stdin "^7.0.0"
     is-ci "^2.0.0"
+    opencollective-postinstall "^2.0.2"
     pkg-dir "^4.2.0"
     please-upgrade-node "^3.1.1"
     read-pkg "^5.1.1"
@@ -2884,7 +2885,7 @@ line-column-path@^1.0.0:
   resolved "https://registry.yarnpkg.com/line-column-path/-/line-column-path-1.0.0.tgz#383b83fca8488faa7a59940ebf28b82058c16c55"
   integrity sha1-ODuD/KhIj6p6WZQOvyi4IFjBbFU=
 
-lint-staged@^8.2.1:
+lint-staged@8.2.1:
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-8.2.1.tgz#752fcf222d9d28f323a3b80f1e668f3654ff221f"
   integrity sha512-n0tDGR/rTCgQNwXnUf/eWIpPNddGWxC32ANTNYsj2k02iZb7Cz5ox2tytwBu+2r0zDXMEMKw7Y9OD/qsav561A==
@@ -3545,6 +3546,11 @@ open-editor@^1.2.0:
     env-editor "^0.3.1"
     line-column-path "^1.0.0"
     opn "^5.0.0"
+
+opencollective-postinstall@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
+  integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
 
 opn@^5.0.0:
   version "5.5.0"
@@ -4339,7 +4345,7 @@ serve-handler@6.0.2:
     path-to-regexp "2.2.1"
     range-parser "1.2.0"
 
-serve@^11.0.2:
+serve@11.0.2:
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/serve/-/serve-11.0.2.tgz#b8ac227d3005238d9aa3946313c191d6c2b16dd9"
   integrity sha512-TjjjwUdPU+STkUyxvZFtkWOTRXdNDNMfot9Z/f97eEeyjPAV69o1TmJrNAlDbvpPu1JEjCoWiGCjkel7kWNF4A==
@@ -5051,7 +5057,7 @@ vfile@^3.0.0:
     unist-util-stringify-position "^1.0.0"
     vfile-message "^1.0.0"
 
-watch@^1.0.2:
+watch@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/watch/-/watch-1.0.2.tgz#340a717bde765726fa0aa07d721e0147a551df0c"
   integrity sha1-NApxe952Vyb6CqB9ch4BR6VR3ww=
